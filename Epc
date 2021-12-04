@@ -1,0 +1,26 @@
+repeat wait() until game:IsLoaded()
+OwnerID = {
+    2341657889,
+}
+
+if table.find(OwnerID, game.Players.LocalPlayer.UserId) then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "redware owner!",
+    Text = "",
+    Duration = 10,
+})
+
+end
+
+AdminID = {
+    1327440729,
+}
+
+if table.find(AdminID, game.Players.LocalPlayer.UserId) then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "redware admin!",
+    Text = "welcome",
+    Duration = 10,
+})
+
+end
