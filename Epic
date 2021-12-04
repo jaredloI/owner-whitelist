@@ -6,20 +6,20 @@ OwnerID = {
 if table.find(OwnerID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
     Title = "redware owner!",
-    Text = "",
+    Text = "[👑]Jaredpo",
     Duration = 10,
 })
 
 end
 
-AdminID = {
-    1327440729,
+LeviID = {
+    2755506985,
 }
 
 if table.find(AdminID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
     Title = "redware admin!",
-    Text = "welcome",
+    Text = "[🌟]Devourxz",
     Duration = 10,
 })
 
