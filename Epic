@@ -5,7 +5,7 @@ OwnerID = {
 
 if table.find(OwnerID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
-    Title = "redware owner!",
+    Title = "Redware Owner!",
     Text = "[👑]Jaredpo",
     Duration = 10,
 })
@@ -20,6 +20,19 @@ if table.find(AdminID, game.Players.LocalPlayer.UserId) then
     game.StarterGui:SetCore("SendNotification", {
     Title = "redware admin!",
     Text = "[🌟]Devourxz",
+    Duration = 10,
+})
+
+end
+
+LeviID = {
+    1327440729,
+}
+
+if table.find(AdminID, game.Players.LocalPlayer.UserId) then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "redware admin!",
+    Text = "[🌟]NEGA",
     Duration = 10,
 })
 
